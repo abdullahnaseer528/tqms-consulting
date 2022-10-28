@@ -231,8 +231,8 @@ li {
 		linear,
 		left top,
 		left bottom,
-		from(#eeb71f),
-		to(#eeb71f
+		from(rgb(243, 110, 35)),
+		to(rgb(243, 110, 35)
 )
 	);
 	background-clip: text;
