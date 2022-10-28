@@ -21,11 +21,13 @@ Table Of Contents:
 /*     General Styles     */
 /**************************/
 :root {
-	--primary: #1c262f;
-	--primary-light: #212d37;
-	--secondary: #0ee951;
-	--tertiary: #00dabf;
-	--gradient: linear-gradient(to right, #0ee951, #00dabf);
+	
+	--primary: rgba(44,53,61,0.7);
+	--primary-light: rgba(58,63,66,0.7);
+	--secondary: rgb(243, 110, 35);	
+	--tertiary: rgb(243, 110, 35);
+	--gradient: linear-gradient(to right, rgb(243, 110, 35)
+, #998724);
 }
 
 h1,
@@ -54,7 +56,7 @@ h4 {
 }
 
 a {
-	color: white;
+	color: rgb(0, 0, 0);
 	text-decoration: none;
 }
 
@@ -76,7 +78,7 @@ li {
 .services,
 .work,
 .contact,
-.testimonial,
+
 .footer {
   	background-color: var(--primary);
 }
@@ -85,6 +87,7 @@ li {
 .plans,
 .company,
 .newsletter,
+.testimonial,
 .location {
   	background-color: var(--primary-light);
 }
@@ -107,8 +110,9 @@ li {
 		linear,
 		left top,
 		left bottom,
-		from(#0ee951),
-		to(#00dabf)
+		from(rgb(243, 110, 35)),
+		to(rgb(243, 110, 35)
+)
 	);
 	background-clip: text;
 	-webkit-background-clip: text;
@@ -162,16 +166,16 @@ li {
 	left: 100%;
 	width: 100%;
 	overflow-y: auto;
-	visibility: hidden;
+	/* visibility: hidden; */
 	padding-right: 1rem;
 	padding-left: 1rem;
 	background-color: var(--primary);
-	transition: transform 0.2s ease-in-out, visibility 0.2s ease-in-out;
+	/* transition: transform 0.2s ease-in-out, visibility 0.2s ease-in-out; */
 }
 
 .offcanvas-collapse.open {
 	visibility: visible;
-	transform: translateX(-100%);
+	/* transform: translateX(-100%); */
 }
 
 .navbar .navbar-nav {
@@ -227,8 +231,9 @@ li {
 		linear,
 		left top,
 		left bottom,
-		from(#0ee951),
-		to(#00dabf)
+		from(#eeb71f),
+		to(#eeb71f
+)
 	);
 	background-clip: text;
 	-webkit-background-clip: text;
@@ -370,7 +375,7 @@ li {
 	border-image-slice: 1;
 	border-width: 2px;
 	border-image-source: var(--gradient);
-	box-shadow: 5px 5px 0px 0px #0ee951;
+	box-shadow: 5px 5px 0px 0px #eeb71f;
 }
 
 
