@@ -13,7 +13,7 @@ Table Of Contents:
 - Newsletter
 - Back To Top Button
 - Extra Pages
-- Media Queries
+- Media Queries	
 ******************************************/
 
 
@@ -22,8 +22,8 @@ Table Of Contents:
 /**************************/
 :root {
 	
-	--primary: rgba(44,53,61,0.7);
-	--primary-light: rgba(58,63,66,0.7);
+	--primary: rgba(7, 15, 22, 0.7);
+	--primary-light: rgba(101, 103, 104, 0.7);
 	--secondary: rgb(243, 110, 35);	
 	--tertiary: rgb(243, 110, 35);
 	--gradient: linear-gradient(to right, rgb(243, 110, 35)
@@ -71,7 +71,7 @@ li {
 .plans,
 .work,
 .contact {
-	height: 110vh;
+	/* height: 110vh; */
 	position: relative;
 }
 
@@ -137,7 +137,7 @@ li {
 	font-weight: 500;
 	font-size: 0.875rem;
 	line-height: 0.875rem;
-	background-color: var(--primary);
+	background-color: rgb(255,255,255, 0.7);
 	box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.025);
 }
 
@@ -213,7 +213,7 @@ li {
 }
 
 .navbar .nav-item .nav-link {
-	color: #eee;
+	color: rgb(0,0,0);
 	text-decoration: none;
 	padding-top: 0.625rem;
 	padding-bottom: 0.625rem;
@@ -643,13 +643,13 @@ li {
 		box-shadow: none;
 		transition: all 0.2s;
 		padding-top: 1.75rem;
-		background-color: transparent;
+		background-color: rgb(255,255,255, 0.7);
 	}
 
 	.navbar.top-nav-collapse {
 		padding-top: 0.5rem;
 		padding-bottom: 0.5rem;
-		background-color: var(--primary);
+		background-color: rgb(255,255,255, 0.7);
 		box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.025);
 	}
 
@@ -700,7 +700,7 @@ li {
 	}
 }
 
-@media only screen and (max-width: 540px) {
+@media only screen and (max-width: 900px) {
 	h1 {
 		font-size: 30px;
 	}
