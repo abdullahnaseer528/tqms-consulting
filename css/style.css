@@ -642,7 +642,7 @@ li {
 	.navbar {
 		box-shadow: none;
 		transition: all 0.2s;
-		padding-top: 1.75rem;
+		/* padding-top: 1.75rem; */
 		background-color: rgb(255,255,255, 0.7);
 	}
 
@@ -724,4 +724,22 @@ li {
 		width: 22px;
 		background-size: 22px 34px;
 	}
+}
+
+
+/* /////////////////// */
+.footer-container{
+	justify-content: space-around;
+}
+.swiperContainer{
+	height: 100%;
+}
+.swiperSlide{
+	height: 700px;
+}
+.testimonial-card{
+	height: 568px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
 }
