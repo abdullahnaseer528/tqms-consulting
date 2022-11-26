@@ -743,3 +743,26 @@ li {
 	flex-direction: column;
 	justify-content: space-between;
 }
+.contactForm{
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+
+}	
+.contactForm input{
+		padding: 0.7rem 1.5rem;
+		border-radius: 4px;
+		font-size: 0.875rem;
+		outline: none;
+		border: none;
+	}
+	.formMessage{
+		padding: 0.7rem 1.5rem;
+		border-radius: 4px;
+		font-size: 0.875rem;
+		outline: none;
+		border: none;
+	}
+	.formSubmitBtn{
+		width: 150px;
+	}

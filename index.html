@@ -408,7 +408,22 @@ TQMS enables structured and data-driven communication between investors and entr
                 <p>CONTACT</p>
                 <h2 class="py-2">Send your query</h2>
               </div>
-              <div>
+
+              <form class="contactForm" action="https://getform.io/f/bfd5f101-ec9b-4fc8-a4df-127784ddfe25" method="POST">
+                <input required type="text" name="name" placeholder="Full Name">
+                <input required type="number" name="phone" placeholder="Phone no.">             
+                <input type="email" name="email" placeholder="Email">
+                <textarea class="formMessage" name="message" placeholder="Message" rows="6"></textarea>
+                <!-- <input  type="text" > -->
+                <!-- add hidden Honeypot input to prevent spams -->
+                <input type="hidden" name="_gotcha" style="display:none !important">
+
+                <button class="formSubmitBtn btn form-control-submit-button" type="submit">Send</button>
+            </form>
+
+
+
+              <!-- <div>
                 <div class="row">
                   <div class="col-lg-6">
                     <div class="form-group py-2">
@@ -452,7 +467,7 @@ TQMS enables structured and data-driven communication between investors and entr
                 <a class="btn form-control-submit-button" href="#your-link"
                   >Submit</a
                 >
-              </div>
+              </div> -->
             </div>
             <!-- end of div -->
           </div>
