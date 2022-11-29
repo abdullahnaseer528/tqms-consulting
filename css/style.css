@@ -23,7 +23,7 @@ Table Of Contents:
 :root {
 	
 	--primary: rgba(7, 15, 22, 0.7);
-	--primary-light: rgba(101, 103, 104, 0.7);
+	--primary-light: rgba(104, 102, 101, 0.7);
 	--secondary: rgb(243, 110, 35);	
 	--tertiary: rgb(243, 110, 35);
 	--gradient: linear-gradient(to right, rgb(243, 110, 35)
@@ -746,12 +746,12 @@ li {
 .contactForm{
 	display: flex;
 	flex-direction: column;
-	gap: 20px;
+	gap: 16px;
 
 }	
 .contactForm input{
 		padding: 0.7rem 1.5rem;
-		border-radius: 4px;
+		border-radius: 3px;
 		font-size: 0.875rem;
 		outline: none;
 		border: none;
