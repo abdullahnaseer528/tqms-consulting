@@ -26,8 +26,7 @@ Table Of Contents:
 	--primary-light: #F36523;
 	--secondary: rgb(243, 110, 35);	
 	--tertiary: rgb(243, 110, 35);
-	--gradient: linear-gradient(to right, rgb(243, 110, 35)
-, #998724);
+	--gradient: linear-gradient(0deg, rgba(53,74,92,1) 0%, rgba(53,74,92,1) 100%);
 }
 
 h1,
@@ -83,7 +82,7 @@ li {
   	background-color: var(--primary);
 }
 .projects{
-	background-color: rgb(243, 110, 35);
+	background-color: #323137;
 }
 .about,
 .plans,
