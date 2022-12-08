@@ -22,8 +22,8 @@ Table Of Contents:
 /**************************/
 :root {
 	
-	--primary: rgba(7, 15, 22, 0.7);
-	--primary-light: rgba(104, 102, 101, 0.7);
+	--primary: #354A5C;
+	--primary-light: #F36523;
 	--secondary: rgb(243, 110, 35);	
 	--tertiary: rgb(243, 110, 35);
 	--gradient: linear-gradient(to right, rgb(243, 110, 35)
@@ -56,7 +56,7 @@ h4 {
 }
 
 a {
-	color: rgb(0, 0, 0);
+	color: white;
 	text-decoration: none;
 }
 
@@ -109,14 +109,15 @@ li {
 .location .far,
 .location .fas {
 	padding: 15px 0;
-	background: -webkit-gradient(
+	/* background: -webkit-gradient(
 		linear,
 		left top,
 		left bottom,
 		from(rgb(243, 110, 35)),
 		to(rgb(243, 110, 35)
 )
-	);
+	); */
+	background-color: #354A5C;
 	background-clip: text;
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
@@ -268,20 +269,34 @@ li {
 /*     Home     */
 /****************/
 .home {
-	background-image: url(../assets/images/finance2.jpg);
+	background-image: url(../assets/images/home.jpg);
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
+	position: relative;
+
+}
+.home::after{
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: #00000058;
+}
+.zindex{
+	z-index: 1;
 }
 
 .para {
   	width: 50%;
 }
 
-.para-light {
+/* .para-light {
   	opacity: 0.7;
-}
+} */
 
 
 /***********************/
