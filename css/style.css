@@ -82,7 +82,9 @@ li {
 .footer {
   	background-color: var(--primary);
 }
-
+.projects{
+	background-color: rgb(243, 110, 35);
+}
 .about,
 .plans,
 .company,
@@ -95,6 +97,7 @@ li {
 .bottom {
   	background-color: black;
 }
+
 
 /* Gradient Border And Background On Icons */
 .home_text,
@@ -406,6 +409,12 @@ li {
 }
 
 .testimonial-card {
+	border: 10px solid;
+	border-image-slice: 1;
+	border-width: 3px;
+	border-image-source: var(--gradient);
+}
+.project-card {
 	border: 10px solid;
 	border-image-slice: 1;
 	border-width: 3px;
@@ -743,6 +752,14 @@ li {
 	flex-direction: column;
 	justify-content: space-between;
 }
+.project-card{
+	/* height: 568px; */
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+
 .contactForm{
 	display: flex;
 	flex-direction: column;
