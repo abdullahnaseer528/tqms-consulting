@@ -100,7 +100,9 @@ li {
 
 
 /* Gradient Border And Background On Icons */
-.home_text,
+.home_text{
+color:var(--primary-light) ;
+}
 .home .fas,
 .plans .far,
 .information .fas,
