@@ -769,7 +769,7 @@ color:var(--primary-light) ;
 	justify-content: space-between;
 }
 .project-card{
-	/* height: 568px; */
+	height: 168px; 
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
